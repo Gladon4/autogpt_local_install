@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/Significant-Gravitas/AutoGPT app",
+          "git clone https://github.com/Gladon4/AutoGPT_local app",
         ]
       }
     },
