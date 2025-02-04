@@ -9,15 +9,15 @@ module.exports = {
         ]
       }
     },
-    {
-      method: "shell.run",
-      params: {
-        path: "app",
-        message: [
-          "git reset --hard 9ae6389c6cd4c8ae0b1f36f3e8e21d09cb963135"
-        ]
-      }
-    },
+    // {
+    //   method: "shell.run",
+    //   params: {
+    //     path: "app",
+    //     message: [
+    //       "git reset --hard 9ae6389c6cd4c8ae0b1f36f3e8e21d09cb963135"
+    //     ]
+    //   }
+    // },
     {
       method: "shell.run",
       params: {
