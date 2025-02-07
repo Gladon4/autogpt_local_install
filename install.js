@@ -24,6 +24,7 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         path: "app/rnd/autogpt_server",                // Edit this to customize the path to start the shell from
         message: [
+          "poetry lock",
           "poetry config virtualenvs.in-project true",
           "poetry install",
           "poetry run prisma generate",
